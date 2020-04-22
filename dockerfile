@@ -22,7 +22,5 @@ RUN mkdir /usr/src/myapp
 COPY target/ExecutableCalculator-1.0-SNAPSHOT.jar /usr/src/myapp
 WORKDIR /usr/src/myapp
 # RUN touch logfile.txt
-# CMD ["java","-cp","ExecutableCalculator-1.0-SNAPSHOT.jar","MainCalc",">>","logfile.txt"]
+CMD ["java","-cp","ExecutableCalculator-1.0-SNAPSHOT.jar","MainCalc"]
 # CMD ["cat","logfile.txt"]
-#COMMENT
-#comment
