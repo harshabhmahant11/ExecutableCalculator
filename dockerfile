@@ -25,3 +25,4 @@ WORKDIR /usr/src/myapp
 # CMD ["java","-cp","ExecutableCalculator-1.0-SNAPSHOT.jar","MainCalc",">>","logfile.txt"]
 # CMD ["cat","logfile.txt"]
 #COMMENT
+#comment
