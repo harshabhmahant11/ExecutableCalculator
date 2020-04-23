@@ -16,7 +16,7 @@
 # RUN java -jar /usr/local/lib/ExecutableCalculator-1.0-SNAPSHOT.jar
 
 
-FROM openjdk:8
+FROM openjdk:8-jre-slim
 MAINTAINER Harshabh Mahant
 RUN mkdir /usr/src/myapp
 COPY target/ExecutableCalculator-1.0-SNAPSHOT.jar /usr/src/myapp
