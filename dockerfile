@@ -24,3 +24,4 @@ WORKDIR /usr/src/myapp
 # RUN touch logfile.txt
 CMD ["java","-cp","ExecutableCalculator-1.0-SNAPSHOT.jar","MainCalc"]
 # CMD ["cat","logfile.txt"]
+
